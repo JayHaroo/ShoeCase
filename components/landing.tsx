@@ -15,7 +15,7 @@ export default function Landing() {
         <Pressable className="mt-10 p-3 rounded-lg w-[120px] items-center border-2 border-white">
           <Text className="text-white">Get Started</Text>
         </Pressable>
-      </View>
+      </View> 
     </View>
   )
 }
