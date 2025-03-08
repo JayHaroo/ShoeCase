@@ -27,8 +27,11 @@ export default function ShoePage() {
         </View>
 
         {/* This part will contain the shoe header details */}
-        <View className="mt-10 w-[90%] flex flex-row justify-between align-middle items-center">
+        <View className="mt-3 w-[85%] flex flex-row justify-between align-middle items-center">
           <Text className="text-white text-3xl font-inter font-bold">A`Ja One</Text>
+          <Image
+            source={require("../assets/icons/nike.png")} 
+            className="object-fill w-[70px] h-[60px]"/>
           <Text className="text-white text-2xl font-inter">Nike</Text>
         </View>
       </View>
